@@ -197,7 +197,7 @@ print  """\033[1;91m
 ░░░░░░░░░░░░░░▓██░░░░░░░░██░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░██████████░░░░░░░░░░░░░░░
 
-                   WhatsApp : 03124788959
+                   WhatsApp : 03119594495
 \033[1;96mAuthor  \033[1;93m: \033[1;92mMehran Ali
 \033[1;96mYoutube \033[1;93m: \033[1;92 youtube.com/TERMUXHACKERS
 \033[1;96mGithub \033[1;93m: \033[1;92https://github.com/termuxhackers/MehranAli/TermuxHackers.py
@@ -214,9 +214,8 @@ while (loop == 'true'):
     	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
-	os.system('xdg-open  https://www.youtube.com/channel/TERMUXHACKERS ')
 
-            loop = 'false'
+      loop = 'false'
         else:
             print "Wrong Password"
             os.system('xdg-open https://www.youtube.com/channel/TERMUXHACKERS ')
